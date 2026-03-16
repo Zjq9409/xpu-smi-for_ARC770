@@ -1,4 +1,5 @@
 # xpu-smi for ARC770
+## 下载并安装
 
 下载deb包到机器上，使用`sudo dpkg -i ./xpu-smi_1.2.36_20260311.020937.702d9adb~u22.04_amd64.deb`命令安装，安装完成后，使用`dpkg -l | grep xpu-smi`来查看安装的版本是否正确。
 
