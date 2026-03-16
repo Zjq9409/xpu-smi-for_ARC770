@@ -1,6 +1,11 @@
 # xpu-smi for ARC770
 
-下载deb包，使用`sudo dpkg -i ./xxxxx.deb`命令安装，安装完成后，使用`sudo dpkg -l | grep xpu-smi`来查看安装的版本是否正确。
+下载deb包，使用`sudo dpkg -i ./xxxxx.deb`命令安装，安装完成后，使用`dpkg -l | grep xpu-smi`来查看安装的版本是否正确。
+
+```
+dpkg -l | grep xpu-smi
+ii  xpu-smi                                    1.2.36-20260311.020937.702d9adb~u22.04  amd64        Intel(R) XPU System Management Interface
+```
 ## 查看帮助
 
 查看所有可 dump 的指标：
